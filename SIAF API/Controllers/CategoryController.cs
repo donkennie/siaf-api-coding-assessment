@@ -34,7 +34,7 @@ namespace SIAF_API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Categories>> PostProfile(Categories categories)
+        public async Task<ActionResult<Categories>> PostCategories(Categories categories)
         {
             if (categories == null)
             {
